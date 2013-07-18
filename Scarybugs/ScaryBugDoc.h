@@ -17,10 +17,7 @@
 @property (strong) UIImage *thumbImage;
 @property (strong) UIImage *fullImage;
 
--(id)intiWithTitle:(NSString *)title
-            rating: (float) rating
-        thumbImage: (UIImage *)thumbImage
-        fullImage : (UIImage *)fullImage;
+-(id)initWithTitle:(NSString *)title rating:(float)rating thumbImage:(UIImage *)thumbImage fullImage:(UIImage *)fullImage;
 
 
 @end
