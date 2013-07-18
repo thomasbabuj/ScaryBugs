@@ -20,6 +20,7 @@
 		0E62C158179823400063CF2B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62C157179823400063CF2B /* MasterViewController.m */; };
 		0E62C15B179823400063CF2B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62C15A179823400063CF2B /* DetailViewController.m */; };
 		0E62C165179827DD0063CF2B /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62C164179827DD0063CF2B /* ScaryBugData.m */; };
+		0E62C16817982D3D0063CF2B /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62C16717982D3D0063CF2B /* ScaryBugDoc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		0E62C15A179823400063CF2B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0E62C163179827DD0063CF2B /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
 		0E62C164179827DD0063CF2B /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		0E62C16617982D3D0063CF2B /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		0E62C16717982D3D0063CF2B /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 			children = (
 				0E62C163179827DD0063CF2B /* ScaryBugData.h */,
 				0E62C164179827DD0063CF2B /* ScaryBugData.m */,
+				0E62C16617982D3D0063CF2B /* ScaryBugDoc.h */,
+				0E62C16717982D3D0063CF2B /* ScaryBugDoc.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				0E62C158179823400063CF2B /* MasterViewController.m in Sources */,
 				0E62C15B179823400063CF2B /* DetailViewController.m in Sources */,
 				0E62C165179827DD0063CF2B /* ScaryBugData.m in Sources */,
+				0E62C16817982D3D0063CF2B /* ScaryBugDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
