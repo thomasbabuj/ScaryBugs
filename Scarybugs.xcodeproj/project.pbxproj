@@ -86,13 +86,8 @@
 		0E62C141179823400063CF2B /* Scarybugs */ = {
 			isa = PBXGroup;
 			children = (
-				0E62C14A179823400063CF2B /* AppDelegate.h */,
-				0E62C14B179823400063CF2B /* AppDelegate.m */,
-				0E62C153179823400063CF2B /* MainStoryboard.storyboard */,
-				0E62C156179823400063CF2B /* MasterViewController.h */,
-				0E62C157179823400063CF2B /* MasterViewController.m */,
-				0E62C159179823400063CF2B /* DetailViewController.h */,
-				0E62C15A179823400063CF2B /* DetailViewController.m */,
+				0E62C162179826F60063CF2B /* Model */,
+				0E62C161179826760063CF2B /* GUI */,
 				0E62C142179823400063CF2B /* Supporting Files */,
 			);
 			path = Scarybugs;
@@ -110,6 +105,27 @@
 				0E62C151179823400063CF2B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E62C161179826760063CF2B /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				0E62C14A179823400063CF2B /* AppDelegate.h */,
+				0E62C14B179823400063CF2B /* AppDelegate.m */,
+				0E62C153179823400063CF2B /* MainStoryboard.storyboard */,
+				0E62C156179823400063CF2B /* MasterViewController.h */,
+				0E62C157179823400063CF2B /* MasterViewController.m */,
+				0E62C159179823400063CF2B /* DetailViewController.h */,
+				0E62C15A179823400063CF2B /* DetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		0E62C162179826F60063CF2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
